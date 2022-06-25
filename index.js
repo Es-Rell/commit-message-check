@@ -2,7 +2,7 @@
 
 import chalk from 'chalk'
 import fs from 'fs'
-const msgPath = 'index.js'
+const msgPath = process.env.GIT_PARAMS || process.env.HUSKY_GIT_PARAMS
 const msg = fs.readFileSync(msgPath, 'utf-8').trim()
 
 const commitRE =

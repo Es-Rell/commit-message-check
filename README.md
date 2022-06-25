@@ -2,7 +2,7 @@
 
 一个简单验证commit提交规范，依赖于[husky](https://github.com/typicode/husky)
 
-## Use
+## 📦 Use
 
 安装
 
@@ -27,7 +27,7 @@ npx --no-install commit-check
 
 
 
-## Test
+## 🔨 Test
 
 ```
 git add .
@@ -68,3 +68,7 @@ husky - commit-msg hook exited with code 1 (error)
 | perf     | 性能优化                                        |
 | ...      | 更多暂不做解释😂                                 |
 
+
+## 🔗 链接
+
+- [更新日志](CHANGELOG.md)
