@@ -1,0 +1,45 @@
+{
+  "name": "commit-message-check",
+  "version": "0.0.1",
+  "description": "Checking commit message",
+  "author": "EsRell@qq.com",
+  "license": "ISC",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "commit-check": "index.js"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "verify"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Es-Rell/commit-verify"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": "npm run lint-staged:js",
+    "**/*.{js,jsx,tsx,ts,md,json}": [
+      "prettier --write"
+    ]
+  },
+  "scripts": {
+    "start": "node index.js",
+    "lint-staged": "lint-staged",
+    "lint-staged:js": "eslint --ext .js,.jsx,.ts,.tsx "
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "git-commit-verify": "^0.0.4",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.8.1",
+    "types": "^0.1.1",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0"
+  }
+}

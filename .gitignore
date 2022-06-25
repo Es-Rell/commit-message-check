@@ -1,0 +1,8 @@
+node_modules
+.DS_Store
+dist
+*.local
+*.code-workspace
+.vscode
+src/public/uploads/*
+logs

@@ -1,0 +1,6 @@
+.npmignore
+.prettierrc.js
+package-lock.json
+yarn.lock
+.vscode
+.husky
