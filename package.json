@@ -1,6 +1,6 @@
 {
   "name": "commit-message-check",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Checking commit message",
   "author": "EsRell@qq.com",
   "license": "ISC",
@@ -33,7 +33,6 @@
   },
   "dependencies": {
     "chalk": "4.1.2",
-    "commit-message-check": "0.0.3",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"

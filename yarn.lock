@@ -59,11 +59,6 @@ chalk@4.1.2:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.npmmirror.com/chalk/-/chalk-5.0.1.tgz"
-  integrity sha512-Fo07WOYGqMfCWHOzSXOt2CxDbC6skS/jO9ynEcmpANMoPrD+W1r1K6Vx7iNm+AQmETU1Xr2t+n8nzkV9t6xh3w==
-
 clean-stack@^2.0.0:
   version "2.2.0"
   resolved "https://registry.npmjs.org/clean-stack/-/clean-stack-2.2.0.tgz#ee8472dbb129e727b31e8a10a427dee9dfe4008b"
@@ -113,27 +108,6 @@ commander@^9.3.0:
   version "9.3.0"
   resolved "https://registry.npmjs.org/commander/-/commander-9.3.0.tgz#f619114a5a2d2054e0d9ff1b31d5ccf89255e26b"
   integrity sha512-hv95iU5uXPbK83mjrJKuZyFM/LBAoCV/XhVGkS5Je6tl7sxr6A0ITMw5WoRV46/UaJ46Nllm3Xt7IaJhXTIkzw==
-
-commit-message-check@0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npmjs.org/commit-message-check/-/commit-message-check-0.0.3.tgz#bbf26283ab9293038dfd4e5ebec0488ff8cca6ff"
-  integrity sha512-hpfpFVY2fpBDLWsUGDl96vCsofJhQ7uQRIw2BSzKEeNUpD8hwMlcoqu9icO+fJAbLGgjDB45mV53Azhuy0teOA==
-  dependencies:
-    chalk "^5.0.1"
-    commit-message-check "^0.0.2"
-    husky "^8.0.1"
-    lint-staged "^13.0.3"
-    prettier "^2.7.1"
-
-commit-message-check@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.npmjs.org/commit-message-check/-/commit-message-check-0.0.2.tgz#54a52ccea50b3f0e79551fbd48f1d0c492873c2a"
-  integrity sha512-+ff6yilP/6z6LDnK200a4KKT6WuIc9jVQrqN2sTT4un0QwTcDhiGkwSiQMka2qG/PxRDNod/jeBgpl2HPtqRkA==
-  dependencies:
-    chalk "^5.0.1"
-    husky "^8.0.1"
-    lint-staged "^13.0.3"
-    prettier "^2.7.1"
 
 cross-spawn@^7.0.3:
   version "7.0.3"
