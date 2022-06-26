@@ -1,9 +1,8 @@
 #!/usr/bin/env node
 
-import chalk from 'chalk'
-import fs from 'fs'
+const chalk = require('chalk')
 const msgPath = process.env.GIT_PARAMS || process.env.HUSKY_GIT_PARAMS
-const msg = fs.readFileSync(msgPath, 'utf-8').trim()
+const msg = require('fs').readFileSync(msgPath, 'utf-8').trim()
 
 const commitRE =
   /^(((\ud83c[\udf00-\udfff])|(\ud83d[\udc00-\ude4f\ude80-\udeff])|[\u2600-\u2B55]) )?(revert: )?(feat|fix|docs|style|UI|refactor|perf|workflow|build|CI|typos|chore|tests|types|wip|release|dep|locale)(\(.+\))?: .{1,50}/
@@ -26,5 +25,3 @@ if (!commitRE.test(msg)) {
   )
   process.exit(1)
 }
-
-export default () => {}
