@@ -106,6 +106,17 @@ commander@^9.3.0:
   resolved "https://registry.npmjs.org/commander/-/commander-9.3.0.tgz#f619114a5a2d2054e0d9ff1b31d5ccf89255e26b"
   integrity sha512-hv95iU5uXPbK83mjrJKuZyFM/LBAoCV/XhVGkS5Je6tl7sxr6A0ITMw5WoRV46/UaJ46Nllm3Xt7IaJhXTIkzw==
 
+commit-message-check@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.npmjs.org/commit-message-check/-/commit-message-check-0.0.3.tgz#bbf26283ab9293038dfd4e5ebec0488ff8cca6ff"
+  integrity sha512-hpfpFVY2fpBDLWsUGDl96vCsofJhQ7uQRIw2BSzKEeNUpD8hwMlcoqu9icO+fJAbLGgjDB45mV53Azhuy0teOA==
+  dependencies:
+    chalk "^5.0.1"
+    commit-message-check "^0.0.2"
+    husky "^8.0.1"
+    lint-staged "^13.0.3"
+    prettier "^2.7.1"
+
 commit-message-check@^0.0.2:
   version "0.0.2"
   resolved "https://registry.npmjs.org/commit-message-check/-/commit-message-check-0.0.2.tgz#54a52ccea50b3f0e79551fbd48f1d0c492873c2a"

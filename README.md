@@ -56,6 +56,8 @@ git commit -m"测试"
 husky - commit-msg hook exited with code 1 (error)
 ```
 
+
+## 📝 Description
 | type     | Description                                     |
 | -------- | ----------------------------------------------- |
 | feat     | 新功能（feature）                               |
@@ -69,6 +71,7 @@ husky - commit-msg hook exited with code 1 (error)
 | ...      | 更多暂不做解释😂                                 |
 
 
-## 🔗 链接
+
+## 🔗 Link
 
 - [更新日志](CHANGELOG.md)
